@@ -1,0 +1,18 @@
+         IDENTIFICATION DIVISION.
+         PROGRAM-ID. ADD-NUMBERS.
+
+         DATA DIVISION.
+         WORKING-STORAGE SECTION.
+         01  NUM1            PIC 9(3) VALUE 100.
+         01  NUM2            PIC 9(3) VALUE 250.
+         01  RESULT-SUM      PIC 9(9).
+         01  WS-CALLED-PROGRAM    PIC X(10).
+
+         PROCEDURE DIVISION.
+         MAIN-LOGIC.
+             ADD NUM1 TO NUM2 GIVING RESULT-SUM.
+             DISPLAY "The sum of " NUM1 " and " NUM2 " is: " RESULT-SUM.
+             DISPLAY "The number 1" NUM1.
+             DISPLAY "The number 1" NUM2.
+             DISPLAY "The number 2" NUM2.
+             STOP RUN.
