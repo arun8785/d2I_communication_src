@@ -8,7 +8,6 @@
          01  NUM3            PIC 9(4) VALUE 350.
          01  RESULT-SUM      PIC 9(9).
          01  WS-CALLED-PROGRAM    PIC X(10).
-         01  WS-DISPLAY-NAME PIC X(35).
 
          PROCEDURE DIVISION.
          MAIN-LOGIC.
