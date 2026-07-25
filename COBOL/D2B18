@@ -27,7 +27,7 @@
 
        WORKING-STORAGE SECTION.
        01 WS-EMPL-INPUT-RECORD.
-          05 WS-EMP-ID          PIC 9(07).
+          05 WS-EMP-ID          PIC 9(08).
           05 WS-EMP-NAME        PIC X(10).
           05 WS-EMP-PROJ        PIC X(10).
           05 WS-EMP-GENDER      PIC X(01).
