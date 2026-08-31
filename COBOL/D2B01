@@ -21,7 +21,7 @@
                88  SEND-DATAONLY                VALUE '2'.
                88  SEND-MAPONLY                 VALUE '3'.
                88  SEND-DATAONLY-ALARM          VALUE '4'.
-               88  SEND-DATAONLY-VALUE          VALUE '6'.
+               88  SEND-DATAONLY-VALUE          VALUE '8'.
 
        01 W-CONVERSIONS.
            05  W-PMT-CNVRT     PIC X(12).
@@ -45,6 +45,7 @@
            05 CLOSE-FILE                      PIC X.
       *
        01 W-RETIREMENT-WA                     PIC 9(4).
+       01 W-DEPARTMENT-WA                     PIC 9(4).
        01 W-COMAREA-LENGTH                    PIC 9(4) COMP.
 
        01 SAVE-COMM-AREA.
