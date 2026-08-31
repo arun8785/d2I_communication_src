@@ -35,7 +35,7 @@
           05 WS-EMP-DESG        PIC X(15).
           05 WS-EMP-SALARY      PIC X(15).
           05 WS-ADM-DEP         PIC X(04).
-          05 FILLER             PIC X(28).
+          05 FILLER             PIC X(30).
 
        01 WS-EMP-STATUSI  PIC 9(2).
        01 WS-EMP-STATUSO  PIC 9(2).
