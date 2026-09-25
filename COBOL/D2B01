@@ -22,7 +22,7 @@
                88  SEND-MAPONLY                 VALUE '3'.
                88  SEND-DATAONLY-ALARM          VALUE '4'.
                88  SEND-DATAONLY-VALUE          VALUE '6'.
-               88  SEND-DATAONLY-VALUE          VALUE '9'.
+               88  SEND-DATAONLY-VALUE          VALUE '5'.
 
        01 W-CONVERSIONS.
            05  W-PMT-CNVRT     PIC X(12).
@@ -122,6 +122,7 @@
        A100-PROCESS-MAP.
 
            PERFORM A310-ERASE-MAP.
+           DISPLAY 'I am in para A100'.
 
            MOVE 0      TO RID-LENGTH.
            MOVE 'N'    TO CLOSE-FILE.
