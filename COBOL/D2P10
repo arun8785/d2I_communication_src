@@ -17,5 +17,6 @@
              DISPLAY "The number 1" NUM1.
              DISPLAY "The number 1" NUM2.
              DISPLAY "The number 2" NUM2.
+             DISPLAY "The number 3" NUM3.
              ADD RESULT-SUM TO NUM3.
              STOP RUN.
